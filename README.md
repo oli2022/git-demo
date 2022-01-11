@@ -13,7 +13,7 @@ $ git config -l
 $ more .gitconfig
 ```
 
-:::success
+
 ## 常用指令
 
 - git init  
@@ -38,37 +38,37 @@ $ more .gitconfig
 發佈至遠端指定的分支（Branch）
 
 
-:::
+
 
 
 ## Git Branch
 
-git branch
+git branch  
 查看當前有什麼分支
     
-git branch <branch_name>
+git branch <branch_name>  
 新增分支
 
-git branch -D <branch_name>
+git branch -D <branch_name>  
 強制刪除
 
-git checkout
+git checkout  
 切換分支
 
-git branch --delete dev
+git branch --delete dev  
 刪除branch
 
-git checkout -b <branch_name>
-在現有的commit底下，另外新增branch
-或是在新增新的branch後立刻切換到新分支
+git checkout -b <branch_name>  
+在現有的commit底下，另外新增branch  
+或是在新增新的branch後立刻切換到新分支  
 
-git reflog (不常用)
+git reflog (不常用)  
 可以看到所有的分支內容，包括被刪除的分支
 
-git branch -m <舊名字> <新名字>
+git branch -m <舊名字> <新名字>  
 分支換名稱
 
-git push -u origin master
+git push -u origin master  
 將本地推送到github
 
 ## git clone
