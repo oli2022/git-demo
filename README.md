@@ -16,25 +16,25 @@ $ more .gitconfig
 :::success
 ## 常用指令
 
-- git init
+- git init  
 建立新的本地端 Repository
 
-- git status
+- git status  
 檢查本地端檔案異動狀態
 
-- git add [檔案或資料夾]
+- git add [檔案或資料夾]  
 將指定的檔案（或資料夾）加入版本控制。用 git add . 可加入全部
 
-- git commit -m "提交說明內容"
+- git commit -m "提交說明內容"  
 提交（commit）目前的異動並透過 -m 參數設定摘要說明文字
 
-- git log
+- git log  
 查看先前的 commit 記錄
 
-- git push
+- git push  
 將本地端 Repository 的 commit 發佈到遠端
 
-- git push -u origin [BRANCH_NAME]
+- git push -u origin [BRANCH_NAME]  
 發佈至遠端指定的分支（Branch）
 
 
